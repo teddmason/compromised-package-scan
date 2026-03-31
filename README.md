@@ -66,6 +66,7 @@ For security, create a token with **read-only** permissions:
    - **Token name**: `repo-scanner-readonly`
    - **Expiration**: 90 days (recommended)
    - **Repository access**: Select "Only select repositories"
+   - **Resource owner**: Select DEFRA for DEFRA repositories
    - Choose the defra repositories you need to scan
 4. **Repository permissions**:
    - **Contents**: `Read-only` ✅
@@ -461,7 +462,7 @@ The scanner displays your rate limit status at startup. If you exceed the limit:
 ### Dependencies installation fails
 **Solution:**
 - Ensure Node.js 14.x or higher is installed
-- Run with `npm install --ignore-scripts` to skip postinstall scripts
+- Run with `npm ci --ignore-scripts` to skip postinstall scripts
 - Check your internet connection
 
 ## Project Structure

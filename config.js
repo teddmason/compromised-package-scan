@@ -19,7 +19,7 @@ module.exports = {
     { owner: 'defra', repo: 'fws-db' },
     { owner: 'defra', repo: 'flood-data' },
     { owner: 'defra', repo: 'flood-service-tests-v2' },
-    { owner: 'defra', repo: 'cap-xml-tests'}
+    { owner: 'defra', repo: 'cap-xml-tests' }
   ],
 
   // Malware database directory path (or single file for backward compatibility)
