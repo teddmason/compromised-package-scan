@@ -1,0 +1,23 @@
+{
+  "name": "repo-scanner",
+  "version": "1.0.0",
+  "description": "GitHub repository scanner for compromised dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": ["github", "security", "dependency-scanner"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "octokit": "^3.1.2",
+    "dotenv": "^16.4.5",
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
